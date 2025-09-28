@@ -1,0 +1,227 @@
+[
+  {
+    "model": "Logistic Regression",
+    "type": "traditional",
+    "accuracy": 0.75,
+    "precision": 0.6923076923076923,
+    "recall": 0.9,
+    "f1": 0.7826086956521738,
+    "inference_time": 0.0007801055908203125,
+    "avg_time_per_sample": 1.9502639770507812e-05,
+    "roc_auc": 0.8575000000000002,
+    "confusion_matrix": [
+      [
+        12,
+        8
+      ],
+      [
+        2,
+        18
+      ]
+    ],
+    "true_negatives": 12,
+    "false_positives": 8,
+    "false_negatives": 2,
+    "true_positives": 18
+  },
+  {
+    "model": "Random Forest",
+    "type": "traditional",
+    "accuracy": 0.575,
+    "precision": 0.5555555555555556,
+    "recall": 0.75,
+    "f1": 0.6382978723404256,
+    "inference_time": 0.007750988006591797,
+    "avg_time_per_sample": 0.00019377470016479492,
+    "roc_auc": 0.62625,
+    "confusion_matrix": [
+      [
+        8,
+        12
+      ],
+      [
+        5,
+        15
+      ]
+    ],
+    "true_negatives": 8,
+    "false_positives": 12,
+    "false_negatives": 5,
+    "true_positives": 15
+  },
+  {
+    "model": "Perplexity-Based",
+    "type": "statistical",
+    "accuracy": 0.65,
+    "precision": 0.625,
+    "recall": 0.75,
+    "f1": 0.6818181818181818,
+    "inference_time": 0.0004391670227050781,
+    "avg_time_per_sample": 1.0979175567626952e-05,
+    "roc_auc": 0.7575000000000001,
+    "confusion_matrix": [
+      [
+        11,
+        9
+      ],
+      [
+        5,
+        15
+      ]
+    ],
+    "true_negatives": 11,
+    "false_positives": 9,
+    "false_negatives": 5,
+    "true_positives": 15
+  },
+  {
+    "model": "Burstiness",
+    "type": "statistical",
+    "accuracy": 0.5,
+    "precision": 0.5,
+    "recall": 0.6,
+    "f1": 0.5454545454545454,
+    "inference_time": 0.0017547607421875,
+    "avg_time_per_sample": 4.38690185546875e-05,
+    "roc_auc": 0.54,
+    "confusion_matrix": [
+      [
+        8,
+        12
+      ],
+      [
+        8,
+        12
+      ]
+    ],
+    "true_negatives": 8,
+    "false_positives": 12,
+    "false_negatives": 8,
+    "true_positives": 12
+  },
+  {
+    "model": "Zipfian",
+    "type": "statistical",
+    "accuracy": 0.4,
+    "precision": 0.4,
+    "recall": 0.4,
+    "f1": 0.4000000000000001,
+    "inference_time": 0.0016739368438720703,
+    "avg_time_per_sample": 4.184842109680176e-05,
+    "roc_auc": 0.39125,
+    "confusion_matrix": [
+      [
+        8,
+        12
+      ],
+      [
+        12,
+        8
+      ]
+    ],
+    "true_negatives": 8,
+    "false_positives": 12,
+    "false_negatives": 12,
+    "true_positives": 8
+  },
+  {
+    "model": "LLM-ZeroShot",
+    "type": "llm_judge",
+    "accuracy": 0.525,
+    "precision": 0.5151515151515151,
+    "recall": 0.85,
+    "f1": 0.6415094339622641,
+    "inference_time": 0.4865701198577881,
+    "avg_time_per_sample": 0.012164252996444701,
+    "roc_auc": 0.49250000000000005,
+    "confusion_matrix": [
+      [
+        4,
+        16
+      ],
+      [
+        3,
+        17
+      ]
+    ],
+    "true_negatives": 4,
+    "false_positives": 16,
+    "false_negatives": 3,
+    "true_positives": 17
+  },
+  {
+    "model": "LLM-FewShot",
+    "type": "llm_judge",
+    "accuracy": 0.425,
+    "precision": 0.45454545454545453,
+    "recall": 0.75,
+    "f1": 0.5660377358490566,
+    "inference_time": 0.4751119613647461,
+    "avg_time_per_sample": 0.011877799034118652,
+    "roc_auc": 0.31500000000000006,
+    "confusion_matrix": [
+      [
+        2,
+        18
+      ],
+      [
+        5,
+        15
+      ]
+    ],
+    "true_negatives": 2,
+    "false_positives": 18,
+    "false_negatives": 5,
+    "true_positives": 15
+  },
+  {
+    "model": "LLM-ChainOfThought",
+    "type": "llm_judge",
+    "accuracy": 0.6,
+    "precision": 0.5588235294117647,
+    "recall": 0.95,
+    "f1": 0.7037037037037037,
+    "inference_time": 0.48520708084106445,
+    "avg_time_per_sample": 0.012130177021026612,
+    "roc_auc": 0.475,
+    "confusion_matrix": [
+      [
+        5,
+        15
+      ],
+      [
+        1,
+        19
+      ]
+    ],
+    "true_negatives": 5,
+    "false_positives": 15,
+    "false_negatives": 1,
+    "true_positives": 19
+  },
+  {
+    "model": "LLM-Ensemble",
+    "type": "llm_judge",
+    "accuracy": 0.475,
+    "precision": 0.48717948717948717,
+    "recall": 0.95,
+    "f1": 0.6440677966101694,
+    "inference_time": 1.4743800163269043,
+    "avg_time_per_sample": 0.03685950040817261,
+    "roc_auc": 0.47000000000000003,
+    "confusion_matrix": [
+      [
+        0,
+        20
+      ],
+      [
+        1,
+        19
+      ]
+    ],
+    "true_negatives": 0,
+    "false_positives": 20,
+    "false_negatives": 1,
+    "true_positives": 19
+  }
+]

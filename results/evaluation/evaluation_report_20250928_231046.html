@@ -1,0 +1,87 @@
+
+        <html>
+        <head>
+            <title>Model Evaluation Report - 20250928_231046</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1 { color: #333; }
+                h2 { color: #666; border-bottom: 2px solid #ddd; padding-bottom: 5px; }
+                table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                .significant { color: green; font-weight: bold; }
+                .not-significant { color: gray; }
+                .best { background-color: #e8f5e9; }
+            </style>
+        </head>
+        <body>
+            <h1>AI Text Detection Model Evaluation Report</h1>
+            <p>Generated: 2025-09-28 23:10:46</p>
+
+            <h2>1. Model Performance Comparison</h2>
+            <table>
+                <tr>
+                    <th>Model</th>
+                    <th>Accuracy</th>
+                    <th>Precision</th>
+                    <th>Recall</th>
+                    <th>F1-Score</th>
+                    <th>ROC-AUC</th>
+                </tr>
+        <tr><td>Our Ensemble</td><td>0.4500</td><td>0.4167</td><td>0.2500</td><td>0.3125</td><td>0.4775</td></tr>
+            </table>
+
+            <h2>2. Statistical Significance Tests</h2>
+        <h3>McNemar's Test (Pairwise Comparisons)</h3><ul><li class='not-significant'>Our Ensemble vs Perplexity-Based: p-value = 1.0000 (Not significant)</li><li class='not-significant'>Our Ensemble vs Burstiness: p-value = 0.3588 (Not significant)</li><li class='not-significant'>Perplexity-Based vs Burstiness: p-value = 0.1138 (Not significant)</li></ul>
+            <h3>Friedman Test</h3>
+            <p>Statistic: 2.4800, p-value: 0.2894</p>
+            <p>Result: No significant differences</p>
+            
+            <h2>4. Error Analysis</h2>
+            <table>
+                <tr>
+                    <th>Model</th>
+                    <th>Total Errors</th>
+                    <th>Error Rate</th>
+                    <th>False Positives</th>
+                    <th>False Negatives</th>
+                </tr>
+        
+                <tr>
+                    <td>Our Ensemble</td>
+                    <td>15</td>
+                    <td>0.3750</td>
+                    <td>2</td>
+                    <td>13</td>
+                </tr>
+                
+                <tr>
+                    <td>Perplexity-Based</td>
+                    <td>14</td>
+                    <td>0.3500</td>
+                    <td>9</td>
+                    <td>5</td>
+                </tr>
+                
+                <tr>
+                    <td>Burstiness</td>
+                    <td>20</td>
+                    <td>0.5000</td>
+                    <td>12</td>
+                    <td>8</td>
+                </tr>
+                
+            </table>
+
+            <h2>5. Summary and Recommendations</h2>
+            <p>Consistently misclassified samples: 10.00%</p>
+
+            <h3>Key Findings:</h3>
+            <ul>
+                <li>Best performing model: Our Ensemble</li>
+                <li>Highest precision: Our Ensemble</li>
+                <li>Statistical significance found in 0 pairwise comparisons</li>
+            </ul>
+        </body>
+        </html>
+        

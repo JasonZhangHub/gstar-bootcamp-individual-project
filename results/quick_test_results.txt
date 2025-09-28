@@ -1,0 +1,7 @@
+Quick Test Results
+========================================
+Detection Accuracy: 50.67%
+Detection F1-Score: 49.83%
+Source Accuracy: 26.00%
+Source F1-Score: 25.25%
+Both Tasks Correct: 20.67%

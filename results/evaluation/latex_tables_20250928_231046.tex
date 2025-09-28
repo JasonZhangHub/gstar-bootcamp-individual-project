@@ -1,0 +1,28 @@
+
+\begin{table}[h]
+\centering
+\caption{Model Performance Comparison on Test Set}
+\begin{tabular}{lcccc}
+\hline
+\textbf{Model} & \textbf{Accuracy} & \textbf{Precision} & \textbf{Recall} & \textbf{F1-Score} \\
+\hline
+Our Ensemble & 0.450 & 0.417 & 0.250 & 0.312 \\
+\hline
+\end{tabular}
+\label{tab:performance}
+\end{table}
+
+\begin{table}[h]
+\centering
+\caption{McNemar's Test Results (p-values)}
+\begin{tabular}{lcc}
+\hline
+\textbf{Comparison} & \textbf{p-value} & \textbf{Significant} \\
+\hline
+Our Ensemble vs Perplexity-Based & 1.0000 & No \\
+Our Ensemble vs Burstiness & 0.3588 & No \\
+Perplexity-Based vs Burstiness & 0.1138 & No \\
+\hline
+\end{tabular}
+\label{tab:significance}
+\end{table}

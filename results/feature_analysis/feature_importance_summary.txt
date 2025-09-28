@@ -1,0 +1,21 @@
+FEATURE IMPORTANCE ANALYSIS SUMMARY
+==================================================
+
+• **Feature Balance**: The hybrid model uses 52.2% stylometric features and 47.8% semantic features for AI detection
+
+• **Most Important Features**: complexity 7, embedding 3, embedding 45 are the top 3 discriminative features
+
+• **Feature Efficiency**: Only 71 features (out of 100) contribute to 80% of the model's decision-making power, and 84 features for 90%
+
+• **Stylometric Patterns**: Complexity features capturing writing structure (mean importance: 15.7) are crucial for detecting AI-generated text
+
+• **Semantic Patterns**: Embedding features capturing meaning and context (mean importance: 14.4) complement stylometric analysis
+
+• **Primary Detection Signal**: Stylometric complexity features provide the strongest individual signals (max importance: 36.5)
+
+• **Feature Redundancy**: Approximately 16.0% of features could be removed with minimal impact on performance
+
+• **Task-Specific Features**: 100 features show significantly different importance between AI detection and source identification tasks
+
+• **Recommendation**: The model shows good balance between stylometric and semantic features, indicating robust hybrid detection capability
+

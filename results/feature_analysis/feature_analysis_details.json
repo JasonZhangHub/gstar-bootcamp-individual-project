@@ -1,0 +1,60 @@
+{
+  "stylometric": {
+    "count": 50,
+    "mean_importance": 15.657667884134398,
+    "max_importance": 36.5150155755703,
+    "total_importance": 782.8833942067199,
+    "top_features": [
+      [
+        "complexity_7",
+        36.5150155755703
+      ],
+      [
+        "complexity_4",
+        26.761390644031533
+      ],
+      [
+        "complexity_3",
+        26.75829354575331
+      ],
+      [
+        "complexity_2",
+        23.511789073523552
+      ],
+      [
+        "complexity_41",
+        23.00911038914088
+      ]
+    ],
+    "percentage": 52.16614320892046
+  },
+  "semantic": {
+    "count": 50,
+    "mean_importance": 14.357332115821364,
+    "max_importance": 29.760600093392693,
+    "total_importance": 717.8666057910682,
+    "top_features": [
+      [
+        "embedding_3",
+        29.760600093392693
+      ],
+      [
+        "embedding_45",
+        27.01305860360781
+      ],
+      [
+        "embedding_18",
+        22.259213252383358
+      ],
+      [
+        "embedding_42",
+        21.260236373421186
+      ],
+      [
+        "embedding_14",
+        19.758412833325824
+      ]
+    ],
+    "percentage": 47.83385679107954
+  }
+}

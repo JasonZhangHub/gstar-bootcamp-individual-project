@@ -1,0 +1,20 @@
+{
+  "timestamp": "20250928_231046",
+  "best_model": "Our Ensemble",
+  "best_accuracy": 0.45,
+  "models_evaluated": [
+    "Our Ensemble"
+  ],
+  "statistical_tests_performed": [
+    "mcnemar",
+    "friedman",
+    "cochran_q"
+  ],
+  "files_generated": [
+    "model_comparison_20250928_231046.csv",
+    "cv_results_20250928_231046.csv",
+    "statistical_tests_20250928_231046.json",
+    "error_analysis_20250928_231046.json",
+    "evaluation_report_20250928_231046.html"
+  ]
+}

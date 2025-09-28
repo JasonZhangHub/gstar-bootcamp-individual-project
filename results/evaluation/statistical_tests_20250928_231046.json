@@ -1,0 +1,36 @@
+{
+  "mcnemar": [
+    {
+      "model1": "Our Ensemble",
+      "model2": "Perplexity-Based",
+      "statistic": 0.0,
+      "p_value": 1.0,
+      "significant": "False"
+    },
+    {
+      "model1": "Our Ensemble",
+      "model2": "Burstiness",
+      "statistic": 0.8421052631578947,
+      "p_value": 0.3587953578869416,
+      "significant": "False"
+    },
+    {
+      "model1": "Perplexity-Based",
+      "model2": "Burstiness",
+      "statistic": 2.5,
+      "p_value": 0.11384629800665763,
+      "significant": "False"
+    }
+  ],
+  "friedman": {
+    "statistic": 2.4800000000000484,
+    "p_value": 0.2893842179390436,
+    "significant": "False"
+  },
+  "cochran_q": {
+    "statistic": 2.48,
+    "p_value": 0.28938421793905067,
+    "df": 2,
+    "significant": "False"
+  }
+}

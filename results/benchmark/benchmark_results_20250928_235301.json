@@ -1,0 +1,22 @@
+[
+  {
+    "model": "Logistic Regression",
+    "type": "traditional",
+    "accuracy": 0.75,
+    "precision": 0.6923076923076923,
+    "recall": 0.9,
+    "f1": 0.7826086956521738,
+    "inference_time": 0.0015408992767333984,
+    "avg_time_per_sample": 3.852248191833496e-05,
+    "roc_auc": 0.8575000000000002,
+    "confusion_matrix": [
+      [
+        12,
+        8
+      ],
+      [
+        2,
+        18
+      ]
+    ],
+    "true_negatives": 

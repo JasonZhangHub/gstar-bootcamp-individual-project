@@ -1,0 +1,88 @@
+{
+  "Our Ensemble": {
+    "total_errors": 15,
+    "error_rate": 0.375,
+    "error_indices": [
+      1,
+      2,
+      5,
+      10,
+      16,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      28,
+      30,
+      33
+    ],
+    "false_positives": "2",
+    "false_negatives": "13",
+    "fp_rate": 0.1,
+    "fn_rate": 0.65
+  },
+  "Perplexity-Based": {
+    "total_errors": 14,
+    "error_rate": 0.35,
+    "error_indices": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      8,
+      12,
+      17,
+      18,
+      23,
+      24,
+      34,
+      35,
+      37
+    ],
+    "false_positives": "9",
+    "false_negatives": "5",
+    "fp_rate": 0.45,
+    "fn_rate": 0.25
+  },
+  "Burstiness": {
+    "total_errors": 20,
+    "error_rate": 0.5,
+    "error_indices": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      6,
+      9,
+      10,
+      14,
+      15,
+      17,
+      18,
+      22,
+      23,
+      24,
+      25,
+      34,
+      35,
+      36,
+      37
+    ],
+    "false_positives": "12",
+    "false_negatives": "8",
+    "fp_rate": 0.6,
+    "fn_rate": 0.4
+  },
+  "consistent_error_indices": [
+    1,
+    5,
+    23,
+    24
+  ],
+  "consistent_error_rate": 0.1
+}
