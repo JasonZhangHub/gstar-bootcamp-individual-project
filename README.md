@@ -138,11 +138,3 @@ Place experimental notebooks and scripts in `experiments/` folder.
 2. Add tests for new functionality
 3. Document your changes
 4. Keep scripts modular and reusable
-
-## 📄 License
-
-[Your License Here]
-
-## 📧 Contact
-
-[Your Contact Information]
